@@ -1,0 +1,68 @@
+{
+  "frontend": [
+    "React", "Angular", "Vue.js", "Next.js", "Svelte", "TypeScript",
+    "Tailwind CSS", "Material UI", "Bootstrap", "Redux", "Vuex", "MobX",
+    "GraphQL", "Apollo Client", "Webpack", "Vite", "Jest", "Cypress",
+    "Storybook", "Styled Components", "Sass", "Less", "CSS Modules",
+    "Ember.js", "Backbone.js", "jQuery", "D3.js", "Three.js", "GSAP",
+    "Framer Motion", "React Query", "SWR", "React Router", "NextAuth.js"
+  ],
+  "backend": [
+    "Node.js", "Express.js", "Django", "Flask", "Spring Boot", "Laravel",
+    "FastAPI", "GraphQL", "REST APIs", "Socket.io", "NestJS", "ASP.NET",
+    "Ruby on Rails", "Phoenix", "Gin", "Koa", "Hapi", "Meteor",
+    "Play Framework", "Actix", "Rocket", "Tornado", "Bottle", "Falcon",
+    "Sanic", "Fastify", "LoopBack", "AdonisJS", "Sails.js", "Feathers.js"
+  ],
+  "mobile": [
+    "React Native", "Flutter", "iOS", "Android", "Swift", "Kotlin",
+    "Xamarin", "Ionic", "NativeScript", "Cordova", "PhoneGap",
+    "Firebase Mobile", "Redux", "MobX", "GraphQL", "Objective-C",
+    "Java", "Dart", "Kotlin Multiplatform", "Unity", "Unreal Engine",
+    "Cocos2d", "Godot", "ARCore", "ARKit", "MapKit", "Core ML",
+    "TensorFlow Lite", "ML Kit", "Firebase ML"
+  ],
+  "database": [
+    "MongoDB", "PostgreSQL", "MySQL", "Redis", "Firebase", "DynamoDB",
+    "Cassandra", "Elasticsearch", "Neo4j", "CouchDB", "SQLite",
+    "MariaDB", "Oracle", "SQL Server", "GraphQL", "Prisma", "Sequelize",
+    "Mongoose", "TypeORM", "Hibernate", "SQLAlchemy", "Drizzle",
+    "Supabase", "Fauna", "CockroachDB", "TimescaleDB", "InfluxDB",
+    "ArangoDB", "RethinkDB", "RavenDB", "Couchbase"
+  ],
+  "cloudDevOps": [
+    "AWS", "Azure", "Google Cloud", "Docker", "Kubernetes", "Jenkins",
+    "GitHub Actions", "Terraform", "Ansible", "Puppet", "Chef",
+    "CircleCI", "Travis CI", "GitLab CI", "Prometheus", "Grafana",
+    "ELK Stack", "Splunk", "New Relic", "Datadog", "Vercel",
+    "Netlify", "Heroku", "DigitalOcean", "Linode", "Cloudflare",
+    "Nginx", "Apache", "HAProxy", "Istio", "Linkerd", "Consul",
+    "Vault", "HashiCorp", "Packer", "Vagrant"
+  ],
+  "programmingLanguages": [
+    "JavaScript", "TypeScript", "Python", "Java", "C#", "C++",
+    "Go", "Rust", "Ruby", "PHP", "Swift", "Kotlin", "Scala",
+    "R", "MATLAB", "Dart", "Elixir", "Clojure", "Haskell",
+    "Perl", "Lua", "Julia", "Crystal", "Nim", "Zig", "V",
+    "Assembly", "Shell Script", "PowerShell", "Groovy", "F#",
+    "OCaml", "Erlang", "Fortran", "COBOL", "Ada"
+  ],
+  "aiMl": [
+    "TensorFlow", "PyTorch", "Keras", "Scikit-learn", "Pandas",
+    "NumPy", "OpenCV", "NLTK", "SpaCy", "Hugging Face", "FastAI",
+    "Jupyter", "MLflow", "DVC", "Ray", "ONNX", "CoreML",
+    "TensorRT", "Caffe", "Theano", "MXNet", "CNTK", "Chainer",
+    "PyTorch Lightning", "Weights & Biases", "Neptune", "Comet",
+    "TensorBoard", "Gradio", "Streamlit", "Dash", "Plotly",
+    "Matplotlib", "Seaborn", "Bokeh", "Altair"
+  ],
+  "testingQuality": [
+    "Jest", "Mocha", "Chai", "Cypress", "Selenium", "Playwright",
+    "Puppeteer", "JUnit", "PyTest", "SonarQube", "ESLint",
+    "Prettier", "TypeScript", "Flow", "JSDoc", "Storybook",
+    "Testing Library", "Cucumber", "Postman", "JMeter",
+    "Karma", "Jasmine", "Ava", "Tape", "Vitest", "TestCafe",
+    "Detox", "Appium", "Robot Framework", "Gatling", "Locust",
+    "Artillery", "k6", "Newman", "Insomnia", "REST Client"
+  ]
+} 

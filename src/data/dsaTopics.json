@@ -1,0 +1,12 @@
+{
+  "Arrays": { "weight": 1.0, "solved": 0 },
+  "Strings": { "weight": 1.0, "solved": 0 },
+  "Linked Lists": { "weight": 1.1, "solved": 0 },
+  "Stacks & Queues": { "weight": 1.1, "solved": 0 },
+  "Trees": { "weight": 1.3, "solved": 0 },
+  "Graphs": { "weight": 1.5, "solved": 0 },
+  "Dynamic Programming": { "weight": 1.6, "solved": 0 },
+  "Greedy": { "weight": 1.2, "solved": 0 },
+  "Backtracking": { "weight": 1.4, "solved": 0 },
+  "Bit Manipulation": { "weight": 1.1, "solved": 0 }
+} 
