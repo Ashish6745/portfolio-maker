@@ -509,22 +509,47 @@ const MultiStepForm = () => {
 
             {step === 2 && (
               <div className="step-content">
-                <h2 className="step-title">DSA Stats</h2>
-                <div className="dsa-inputs">
-                  {Object.entries(dsaStats).map(([topic, data]) => (
-                    <div key={topic} className="input-group">
-                      <label className="topic-label">{topic}</label>
-                      <input
-                        type="text"
-                        inputMode="numeric"
-                        pattern="[0-9]*"
-                        placeholder="Enter count"
-                        className="dsa-input-field"
-                        value={data.solved}
-                        onChange={(e) => handleDSAInputChange(topic, e.target.value)}
-                      />
-                    </div>
-                  ))}
+                <h2 className="step-title">DSA Progress</h2>
+                <div className="dsa-inputs-container">
+                  <div className="dsa-inputs-row">
+                    {Object.entries(dsaStats).map(([topic, data], index) => {
+                      const shortLabels = {
+                        'Dynamic Programming': 'DP',
+                        'Graph Theory': 'Graph',
+                        'Tree Data Structure': 'Tree',
+                        'Array': 'Array',
+                        'String': 'String',
+                        'Linked List': 'LL',
+                        'Stack': 'Stack',
+                        'Queue': 'Queue',
+                        'Hash Table': 'Hash',
+                        'Heap': 'Heap',
+                        'Binary Search': 'BS',
+                        'Sorting': 'Sort',
+                        'Greedy': 'Greedy',
+                        'Backtracking': 'BT',
+                        'Bit Manipulation': 'Bit',
+                        'Math': 'Math'
+                      };
+                      
+                      return (
+                        <div key={topic} className="dsa-input-group">
+                          <label className="dsa-topic-label">{shortLabels[topic] || topic}</label>
+                          <div className="dsa-input-wrapper">
+                            <input
+                              type="text"
+                              inputMode="numeric"
+                              pattern="[0-9]*"
+                              placeholder="0"
+                              className="dsa-input-field"
+                              value={data.solved}
+                              onChange={(e) => handleDSAInputChange(topic, e.target.value)}
+                            />
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
                 </div>
                 <button
                   type="button"
@@ -539,27 +564,27 @@ const MultiStepForm = () => {
                     <h3>DSA Progress Report</h3>
                     <div className="report-stats">
                       <div className="stat-item">
-                        <span className="stat-label">Total Questions Solved:</span>
+                        <span className="stat-label">Total Questions Solved</span>
                         <span className="stat-value">{dsaReport.totalSolved}</span>
                       </div>
                       <div className="stat-item">
-                        <span className="stat-label">Weighted Score:</span>
+                        <span className="stat-label">Weighted Score</span>
                         <span className="stat-value">{dsaReport.weightedScore}</span>
                       </div>
                       <div className="stat-item">
-                        <span className="stat-label">Topic Coverage:</span>
+                        <span className="stat-label">Topic Coverage</span>
                         <span className="stat-value">{dsaReport.coveragePercentage}%</span>
                       </div>
                       <div className="stat-item">
-                        <span className="stat-label">DSA Rating:</span>
-                        <span className="stat-value">
+                        <span className="stat-label">DSA Rating</span>
+                        <span className="stat-value rating">
                           {'★'.repeat(dsaReport.starRating)}
                           {'☆'.repeat(5 - dsaReport.starRating)}
                         </span>
                       </div>
                     </div>
                     <div className="recommendation">
-                      <h4>Recommendation:</h4>
+                      <h4>Recommendation</h4>
                       <p>{dsaReport.recommendation}</p>
                     </div>
                   </div>
